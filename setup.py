@@ -66,6 +66,8 @@ def setup_package():
         # but are listed here because different linux distros use custom
         # python installations.  And users can remove packages at any point
         install_requires=[
+            "requests",
+            "json",
             "cloudpickle",
             "configparser",
             "coverage",
