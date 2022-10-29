@@ -67,7 +67,6 @@ def setup_package():
         # python installations.  And users can remove packages at any point
         install_requires=[
             "requests",
-            "json",
             "cloudpickle",
             "configparser",
             "coverage",
